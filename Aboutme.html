@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        body{
+            background:url('portfolio.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-position: center; */
+            color: white;
+            border-radius: 5px;
+            margin: 0px;
+            padding: 0px;
+            display: flexbox;
+           
+        }
+        .me{
+            color: white;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            left: 35px;
+            border: 2px solid black;
+            border-radius: 8px;
+            background-color: orangered;
+        }
+        .me:hover{
+            color: orangered;
+            border: 2px solid orangered;
+            background-color: black;
+        }
+        .btn{
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            font-size: 25px;
+            background-color: orangered;
+            color: white;
+            border-radius: 10px;
+            margin: 10px 15px;
+        }
+        .btn:hover{
+            background-color: black;
+            color:orangered;
+            border: 2px solid orangered;
+        }
+        .para{
+            border: 2px solid white;
+            height: 450px;
+            width: 800px;
+            position: absolute;
+            top: 80px;
+            left: 250px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 30px;
+            padding: 15px 10px;
+            color: orangered;
+            font-weight: bold;
+        }
+        .m{
+            top: 160px;
+            position:relative;
+            width: 800px;
+            left: -15px;
+            color: orangered;
+            font-weight: bold;
+        }
+        .h{
+            position: absolute;
+            top: 170px;
+            left: 280px;
+        }
+        .df a{
+            color: white;
+            position: absolute;
+            top: 240px;
+            left: 280px;
+            font-size: 30px;
+            text-decoration: none;
+            border: 2px solid black;
+            padding:5px 10px;
+            border-radius: 8px;
+            background-color: orangered;
+        }
+        .df a:hover{
+            background-color: black;
+            color: orangered;
+            border: 3px solid orangered;
+        }
+        .para1{
+           
+            height: 500px;
+            width: 800px;
+            position: absolute;
+            top: 300px;
+            left: 250px;
+            
+            text-decoration: none;
+            font-size: 30px;
+            padding: 15px 10px;
+            color: orangered;
+            font-weight: bold;
+        }
+        .df1 a{
+            color: white;
+            position: absolute;
+            top: 460px;
+            left: 280px;
+            font-size: 30px;
+            text-decoration: none;
+            border: 2px solid black;
+            padding:5px 10px;
+            border-radius: 8px;
+            background-color: orangered;
+        }
+        .df1 a:hover{
+            background-color: black;
+            color: orangered;
+            border: 3px solid orangered;
+        }
+        .m1{
+            top: 360px;
+            position:relative;
+            width: 800px;
+            left: -15px;
+            color: orangered;
+            font-weight: bold;
+        }
+        .h1{
+            position: absolute;
+            top: 390px;
+            left: 280px;
+        }
+        .para2{
+            color:rgb(255, 47, 0) ;
+            border: 2px solid white;
+            position: absolute;
+            top: 600px;
+            left: 250px;
+            height: 300px;
+            width: 790px;
+            border-radius: 8px;
+            padding: 15px;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        .gd{
+            top: 645px;
+            position:relative;
+            width: 800px;
+            left: -15px;
+            color: orangered;
+            font-weight: bold;
+        }
+        .h2{
+            position: absolute;
+            top: 690px;
+            left: 280px;
+        }
+        .df2 a{
+            color: white;
+            position: absolute;
+            top: 760px;
+            left: 280px;
+            font-size: 30px;
+            text-decoration: none;
+            border: 2px solid black;
+            padding:5px 10px;
+            border-radius: 8px;
+            background-color: orangered;
+        }
+        .df2 a:hover{
+            background-color: black;
+            color: orangered;
+            border: 3px solid orangered;
+        }
+        .df3 a{
+            color: white;
+            position: absolute;
+            top: 760px;
+            left: 680px;
+            font-size: 30px;
+            text-decoration: none;
+            border: 2px solid black;
+            padding:5px 10px;
+            border-radius: 8px;
+            background-color: orangered;
+        }
+        .df3 a:hover{
+            background-color: black;
+            color: orangered;
+            border: 3px solid orangered;
+        }
+        .df4 a{
+            color: white;
+            position: absolute;
+            top: 860px;
+            left: 490px;
+            font-size: 30px;
+            text-decoration: none;
+            border: 2px solid black;
+            padding:5px 10px;
+            border-radius: 8px;
+            background-color: orangered;
+        }
+        .df4 a:hover{
+            background-color: black;
+            color: orangered;
+            border: 3px solid orangered;
+        }
+        .para3{
+            color:rgb(255, 246, 0) ;
+            border: 2px solid white;
+            position: absolute;
+            top: 1000px;
+            left: 250px;
+            height: 300px;
+            width: 790px;
+            border-radius: 8px;
+            padding: 15px;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        .pgd{
+            top: 1030px;
+            position:relative;
+            width: 800px;
+            left: -15px;
+            color: orangered;
+            font-weight: bold;
+        }
+        .h3{
+            position: absolute;
+            top: 1090px;
+            left: 280px;
+        }
+        .df5 a{
+            color: white;
+            position: absolute;
+            top: 1160px;
+            left: 280px;
+            font-size: 30px;
+            text-decoration: none;
+            border: 2px solid black;
+            padding:5px 10px;
+            border-radius: 8px;
+            background-color: orangered;
+        }
+        .df5 a:hover{
+            background-color: black;
+            color: orangered;
+            border: 3px solid orangered;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="me">Academic <Details></Details></h2>
+    </header>
+    <button class="btn" onclick="document.location='index.html'">Back</button>
+    <p class="para">High School:(2014-2015)<hr class="m"></p>
+    <h1 class="h">Pdf Document</h1>
+    <p class="df"><a href="My CV.pdf">Click Here</a></p>
+    <p class="para1">Intermediate:(2016-2017)<hr class="m1"></p>
+    <h1 class="h1">Pdf Document</h1>
+    <p class="df1"><a href="12th.pdf">Click Here</a></p>
+    <p class="para2">Graduation:(2017-2020)<hr class="gd"></p>
+    <h1 class="h2">Pdf Document</h1>
+    <p class="df2"><a href="My CV.pdf">Click Here for 1st Year</a></p>
+    <p class="df3"><a href="My CV.pdf">Click Here for 2nd Year</a></p>
+    <p class="df4"><a href="My CV.pdf">Click Here for 3rd Year</a></p>
+    <p class="para3">Post Graduation:(2021-2023)<hr class="pgd"></p>
+    <h1 class="h3">Pdf Document</h1>
+    <p class="df5"><a href="MCA 1st sem.pdf">Click Here for 1st Year</a></p>
+</body>
+</html>
